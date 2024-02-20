@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- ***Custom Fonts*** -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- ***Font Awesome*** -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <!-- ***Bootstrap 5.3.2 CSS*** -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- ***Main CSS*** -->
+        <link rel="stylesheet" href="./assets/css/styles.css" />
+        <title>P-Ticket</title>
+    </head>
+    <body>
+        <header class="container mt-4">
+            <div class="row">
+                <!-- Left section for the name -->
+                <div class="col-sm align-self-center">
+                    <h1 class="navbar-header mb-0">P-Ticket</h1>
+                </div>
+                <!-- Middle section for the links -->
+                <div class="col-sm align-self-center">
+                    <nav class="navbar navbar-expand-lg justify-content-center">
+                        <ul class="navbar-nav d-flex justify-content-between col-12">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Destination</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Search</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Right section for the button -->
+                <div class="col-sm align-self-center d-flex justify-content-end">
+                    <button class="btn btn-outline-success align-self-center nav-button d-flex px-4 py-2 align-items-center">
+                        <span class="nav-button-text me-3">Bus</span> <i class="fa-solid fa-van-shuttle"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="container mt-4 info">
+                <div class="row info-section justify-content-center">
+                    <div class="col-12 align-self-center text-center">
+                        <h1 class="info-heading" style="color: #ffffff">End-to-End Travel with</h1>
+                        <h1 class="info-heading" style="color: #1dd100">P Paribahan</h1>
+                        <p class="info-paragraph">
+                            Yes, you can run unit tests and view the results directly within the app.
+                            <br />
+                            The integrated testing features allow for a streamlined .
+                        </p>
+                        <a href="#buy-ticket" class="btn btn-outline-success px-5 py-3 info-button">Buy Tickets</a>
+                    </div>
+                </div>
+                <div class="row info-bottom justify-content-center">
+                    <div class="col-8">
+                        <div class="row">
+                            <div class="col-4 info-divs d-flex justify-content-center align-items-center px-3">
+                                <div><img src="./assets/images/people.png" alt="" class="me-3" /></div>
+                                <div>
+                                    <h1>500K+</h1>
+                                    <p>Registered Users</p>
+                                </div>
+                            </div>
+                            <div class="col-4 info-divs d-flex justify-content-center align-items-center px-3">
+                                <div><img src="./assets/images/ticket-cupon.png" alt="" class="me-3" /></div>
+                                <div>
+                                    <h1>1.7 lacks+</h1>
+                                    <p>Tickets sold</p>
+                                </div>
+                            </div>
+                            <div class="col-4 info-divs d-flex justify-content-center align-items-center px-3">
+                                <div><img src="./assets/images/stoppage.png" alt="" class="me-3" /></div>
+                                <div>
+                                    <h1>80K+</h1>
+                                    <p>Rental Partners</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="container coupon">
+                <div class="row text-center">
+                    <h1 class="mt-5">Best Offers for You</h1>
+                </div>
+                <div class="row coupon-bottom">
+                    <div class="col-6 coupon-divs coupon-divs-left d-flex justify-content-between px-5 align-items-center">
+                        <div class="inner-left">
+                            <h2>15% OFF</h2>
+                            <h4>on your next purchase</h4>
+                            <p>use by January 2024</p>
+                        </div>
+                        <div class="inner-right">
+                            <h3>NEW15</h3>
+                            <p>Coupon Code</p>
+                        </div>
+                    </div>
+                    <div class="col-6 coupon-divs coupon-divs-right d-flex justify-content-between px-2 align-items-center">
+                        <div class="inner-left">
+                            <h2>20% OFF</h2>
+                            <h4>on your next purchase</h4>
+                            <p>use by January 2024</p>
+                        </div>
+                        <div class="inner-right">
+                            <h3>Couple 20</h3>
+                            <p>Coupon Code</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-6 mx-auto d-flex justify-content-center">
+                        <a class="btn button-coupon px-4 py-3">See All Offers</a>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid buy-ticket-main pb-5" id="buy-ticket">
+                <div class="container buy-ticket">
+                    <div class="row buy-ticket-top text-center">
+                        <h1>P.H Paribahan</h1>
+                        <p>
+                            Yes, you can run unit tests and view the results directly within the app. <br />
+                            The integrated testing features allow for a streamlined.
+                        </p>
+                    </div>
+                    <div class="row buy-ticket-middle">
+                        <div class="col-8 h-100 py-4">
+                            <div class="row">
+                                <div class="col-8 d-flex justify-content-start px-4">
+                                    <img class="bus-logo mt-3" src="./assets/images/bus-logo.png" alt="" />
+                                    <div>
+                                        <h1 class="bus-name">Greenline Paribahan</h1>
+                                        <p class="bus-desc">Coach-009-WEN ! AC_Business</p>
+                                    </div>
+                                </div>
+                                <div class="col-4 d-flex justify-content-end">
+                                    <a class="btn button-seat-left px-4 py-3 read-only">
+                                        <img class="seat-logo me-1" src="./assets/images/seat-green.png" alt="" />
+                                        <span class="seat-left" id="seat-left">40</span> Seats Left
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row px-5 mt-4">
+                                <div class="col-12 p-3 route-details">
+                                    <div class="d-flex px-2 justify-content-between">
+                                        <h3>Route</h3>
+                                        <h4>Dhaka-Sylhet</h4>
+                                    </div>
+                                    <hr class="route-divider" />
+                                    <div class="d-flex px-2 justify-content-between">
+                                        <h3>Departure Time</h3>
+                                        <h4>9:00 PM</h4>
+                                    </div>
+                                    <hr class="route-divider" />
+                                    <div class="row">
+                                        <div class="col-4 route-div">
+                                            <p class="route-paragraph">Boarding Point - Laxmipur</p>
+                                        </div>
+                                        <div class="col-4 route-div"><p class="route-paragraph">Dropping Point - Bagura</p></div>
+                                        <div class="col-4 route-div"><p class="route-paragraph">Est. Time - 11 Hour</p></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-1 h-100">
+                            <div class="divider d-flex align-items-center justify-content-center">
+                                <div class="divider-inner"></div>
+                            </div>
+                        </div>
+                        <div class="col-3 h-100 d-flex justify-content-center align-items-center">
+                            <div class="div">
+                                <div class="d-flex justify-content-center mb-3">
+                                    <img class="mx-auto" src="./assets/images/fare.png" alt="" />
+                                </div>
+                                <h1 class="fare-head text-center">550 Taka</h1>
+                                <p class="fare-desc text-center">Per Seat</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row buy-ticket-bottom py-4 px-2">
+                        <div class="col-7">
+                            <div class="row">
+                                <h1 class="buy-ticket-bottom-heading">Select Your Seat</h1>
+                            </div>
+                            <hr class="route-divider" />
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img class="me-2" src="./assets/images/seat-gray.png" alt="" />
+                                    <h6 class="seat-selection">Available</h6>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <img class="me-2" src="./assets/images/seat-green-filled.png" alt="" />
+                                    <h6 class="seat-selection" style="color: #1dd100">Selected</h6>
+                                </div>
+                            </div>
+                            <hr class="route-divider" />
+                            <div class="row">
+                                <div class="col-9"></div>
+                                <div class="col-3 ms-4 driver-seat"><img src="./assets/images/wheel.png" alt="" /></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 seats"></div>
+                            </div>
+                        </div>
+                        <div class="col-1 divider-col d-flex align-items-center">
+                            <div class="divider-bottom"></div>
+                        </div>
+                        <div class="col-4 right-col">
+                            <div class="row">
+                                <h1 class="buy-ticket-bottom-heading">Select Your Seat</h1>
+                            </div>
+                            <hr class="route-divider" />
+                            <div class="row ticket-details px-2">
+                                <div class="col-12 py-3">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <h2 class="ticket-details-thead">
+                                                Seat <span id="noOfSeats" class="noOfSeats"></span>
+                                            </h2>
+                                        </div>
+                                        <div class="col-4 text-center"><h2 class="ticket-details-thead">Class</h2></div>
+                                        <div class="col-4 text-end pe-3"><h2 class="ticket-details-thead">Price</h2></div>
+                                    </div>
+                                    <hr class="route-divider" />
+                                    <div class="row">
+                                        <div id="selectedSeats"></div>
+                                    </div>
+                                    <hr class="route-divider" />
+                                    <div class="row">
+                                        <div class="col-6"><h2 class="ticket-details-thead">Total Price</h2></div>
+                                        <div class="col-6 text-end">
+                                            <h2 class="ticket-details-thead">
+                                                BDT
+                                                <span id="totalPrice"> </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+
+                                    <form class="form mt-4 mb-2" id="couponForm" style="display: none" action="">
+                                        <div class="form-group">
+                                            <div class="row px-3">
+                                                <input
+                                                    type="text"
+                                                    name=""
+                                                    class="col-8 form-control-plaintext form-field px-3"
+                                                    value=""
+                                                    id="couponCode"
+                                                    placeholder="Have any coupon?"
+                                                />
+                                                <button id="applyCoupon" class="col-4 btn btn-success form-button" type="submit">
+                                                    Apply
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="row px-2">
+                                        <p class="col-12" class="" id="couponMessage"></p>
+                                    </div>
+                                    <div class="row mt-4">
+                                        <div class="col-6"><h2 class="ticket-details-thead">Grand Total</h2></div>
+                                        <div class="col-6 text-end">
+                                            <h2 class="ticket-details-thead">
+                                                BDT
+                                                <span id="grandTotal"></span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-5">
+                                <form id="passengerInfo">
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Passenger Name*</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Enter your name" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="phone" class="form-label">Phone Number*</label>
+                                        <input type="tel" class="form-control" id="phone" placeholder="Enter Your phone number" />
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email ID</label>
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            id="exampleInputEmail1"
+                                            placeholder="Enter Your email id"
+                                        />
+                                    </div>
+                                    <div class="row px-3">
+                                        <button
+                                            type="submit"
+                                            id="passengerInfoButton"
+                                            class="btn btn-success col-12 passengerInfoButton"
+                                            disabled
+                                        >
+                                            Next
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-6 text-end tA">Terms and Condtions</div>
+                                <div class="col-6 text-start tA">Cancellation Policy</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="container p-5">
+                    <div class="row d-flex justify-content-center">
+                        <img src="./assets/images/success.png" alt="" style="height: 90px; width: 110px" />
+                    </div>
+
+                    <div class="row text-center">
+                        <h1 class="text-success mt-3">Success</h1>
+                    </div>
+                    <div class="row text-center mt-3">
+                        <p>
+                            Thank you for Booking Our Bus Seats. <br />
+                            We are working hard to find the best service and deals for you.
+                        </p>
+                    </div>
+                    <div class="row text-center">
+                        <p style="color: rgba(94, 94, 94, 0.664) !important">
+                            Shortly you will find a confirmation in your email.
+                        </p>
+                    </div>
+                    <div class="mt-4 row text-center justify-content-center">
+                        <button class="btn btn-success modal-button" id="closeBtn">Continue</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid py-5">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>P-Ticket</h1>
+                        <p>
+                            P-Ticket is digital platform to make your <br />
+                            daily commuting better
+                        </p>
+                    </div>
+                </div>
+                <hr />
+                <div class="row justify-content-between">
+                    <div class="col-8"><p>@all rights reserved, P-Ticket services limited, 2024</p></div>
+                    <div class="col-4 d-flex justify-content-between">
+                        <a href="" class="footerAnchor">Terms & conditions</a>
+                        <a href="" class="footerAnchor">Return & refund policy</a>
+                        <a href="" class="footerAnchor">Privacy policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- ***Bootstrap 5.3.2 JS*** -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- ***Jquery  3.7.1.*** -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <!-- ***Main JS*** -->
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>

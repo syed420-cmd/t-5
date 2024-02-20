@@ -1,0 +1,600 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ***Nav Section CSS*** */
+.navbar-header {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    line-height: normal;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: #030712;
+}
+.nav-link {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-button {
+    color: #1dd100;
+    border: 1px solid rgba(29, 209, 0, 0.4);
+    border-radius: 12px;
+    background: rgba(29, 209, 0, 0.1);
+}
+.nav-button-text {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: #1dd100;
+}
+
+/* ***Info Section CSS*** */
+.info {
+    height: 550px;
+}
+.info-section {
+    background: url("../images/info_bg.png");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+}
+
+.info-button {
+    color: #030712;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 12px;
+    background: rgb(29, 209, 0);
+}
+
+.info-heading {
+    font-family: "Raleway", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.info-paragraph {
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+}
+
+.info-bottom {
+    margin-top: -100px;
+}
+.info-divs {
+    height: 118px;
+    background-color: #fff;
+    border-radius: 24px;
+    border-bottom: 3px solid #1dd100;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.info-divs h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.info-divs p {
+    color: rgba(3, 7, 18, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+/* ***Cuopon Section CSS*** */
+.coupon {
+    height: 550px;
+    margin-top: 5rem;
+}
+
+.coupon h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.coupon-bottom {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.coupon-divs {
+    margin: 10px;
+    width: calc(50% - 20px);
+    height: 220px;
+    background-color: #fff;
+}
+
+.coupon-divs-left {
+    background: url(../images/coupon_1.png);
+}
+
+.coupon-divs-right {
+    background: url(../images/coupon_2.png);
+}
+
+.inner-left {
+    width: calc(70% - 30px);
+}
+.inner-right {
+    width: calc(25% - 2px);
+}
+.coupon-bottom h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.coupon-bottom h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.coupon-bottom h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.coupon-bottom p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.inner-right p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.coupon-divs-right .inner-left {
+    width: calc(60% - 30px);
+    margin-left: 30px;
+}
+
+.coupon-divs-right .inner-right h3 {
+    font-size: 24px;
+}
+
+.button-coupon {
+    color: #1dd100;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    box-sizing: border-box;
+    border: 1px solid rgb(29, 209, 0);
+    border-radius: 12px;
+}
+
+.button-coupon:hover {
+    color: #1dd100;
+    background: rgba(29, 209, 0, 0.1);
+    border-color: #1dd100;
+}
+/* ***Buy Ticket Section CSS*** */
+.buy-ticket-main {
+    box-sizing: border-box;
+    border-top: 2px solid rgb(29, 209, 0);
+    border-radius: 88px 88px 0px 0px;
+    background: rgb(247, 248, 248);
+}
+
+.buy-ticket {
+    margin-top: 120px;
+}
+
+.buy-ticket-top h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.buy-ticket-top p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.buy-ticket-middle {
+    height: 418px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+
+.button-seat-left {
+    height: 60px;
+    border-radius: 12px;
+    background: rgba(29, 209, 0, 0.15);
+    color: #1dd100;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    pointer-events: none;
+    margin-right: 30px;
+}
+
+.button-seat-left:hover {
+    border-radius: 12px;
+    background: rgba(29, 209, 0, 0.15);
+    color: #1dd100;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: default;
+}
+
+.bus-logo {
+    margin-right: 20px;
+    width: 68.57px;
+    height: 48px;
+}
+
+.bus-name {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.bus-desc {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.divider {
+    height: 100%;
+    position: relative;
+}
+.divider-inner {
+    height: 70%;
+    border-right: 2px dashed #1dd100;
+}
+.divider:before,
+.divider:after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: rgb(247, 248, 248);
+    z-index: 1;
+}
+.divider:before {
+    top: -40px;
+    border-radius: 50%;
+}
+.divider:after {
+    bottom: -40px;
+    border-radius: 50%;
+}
+.fare-head {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+.fare-desc {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.route-details {
+    border-radius: 24px;
+    background: rgb(247, 248, 248);
+}
+
+.route-divider {
+    border-top: 2px dashed rgba(3, 7, 18, 0.5);
+}
+
+.route-details h3,
+h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.route-div {
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    border-radius: 12px;
+    background: rgba(3, 7, 18, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.route-paragraph {
+    margin: 0;
+    color: rgba(3, 7, 18, 0.8);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.buy-ticket-bottom {
+    margin-top: 40px;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+}
+.divider-col {
+    width: 2%;
+}
+
+.divider-bottom {
+    height: 98%;
+    border-right: 2px dashed rgba(3, 7, 18, 0.3);
+}
+.buy-ticket-bottom-heading {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+.right-col {
+    width: 39%;
+}
+
+.seat-selection {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1;
+    color: #0307127c;
+}
+
+.driver-seat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 56px;
+    border-radius: 12px;
+    background: rgba(3, 7, 18, 0.1);
+}
+
+.letter {
+    display: inline-block;
+    margin: 25px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.seats {
+    padding: 10px 30px;
+}
+
+.seat {
+    display: inline-block;
+    margin: 20px;
+    width: 110px;
+    height: 56px;
+    border-radius: 12px;
+    background: rgba(3, 7, 18, 0.1);
+    cursor: pointer;
+    text-align: center;
+    padding-top: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.gutter-right {
+    margin-right: 33px;
+}
+
+.gutter-left {
+    margin-left: 33px;
+}
+
+.margin-right {
+    margin-right: 35px !important;
+}
+
+.ticket-details {
+    border-radius: 12px;
+    background: rgb(247, 248, 248);
+    min-height: 235px;
+}
+
+.ticket-details-thead {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.selected {
+    border-radius: 12px;
+    background: rgb(29, 209, 0);
+}
+
+.seat-details-table {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0307127a;
+}
+
+.form-field {
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+    width: 369px;
+}
+.form-button {
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgb(29, 209, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-button:hover {
+    color: #1dd100;
+    background: rgba(29, 209, 0, 0.1);
+    border-color: #1dd100;
+}
+
+#couponCode {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.noOfSeats {
+    display: inline-block;
+    width: 23px;
+    border-radius: 5px;
+    background: rgb(29, 209, 0);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: center;
+}
+#couponMessage {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#passengerInfo {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-label {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-control {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: 50px;
+    border: 1px solid rgba(3, 7, 18, 0.1);
+    border-radius: 12px;
+}
+.form-control::placeholder {
+    font-family: "Inter", sans-serif;
+    color: #0307127a;
+    font-weight: 400;
+}
+
+.passengerInfoButton {
+    border-radius: 8px;
+    background: rgb(29, 209, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.passengerInfoButton:hover {
+    color: #1dd100;
+    background: rgba(29, 209, 0, 0.1);
+    border-color: #1dd100;
+}
+.tA {
+    text-decoration: underline;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0307127a;
+}
+.passengerInfoButton:disabled {
+    background: #d100001a;
+    border-color: #d100001a;
+    color: rgba(100, 100, 100, 0.767);
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 12;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: rgb(247, 248, 248);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    width: 718px;
+    height: 481px;
+    background-color: #fefefe;
+    overflow: hidden;
+}
+
+.modal h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.modal p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+.modal-button {
+    width: 250px;
+    height: 50px;
+    border-radius: 32px;
+    background: rgb(39, 174, 96);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ***Footer Section CSS*** */
+footer {
+    height: 457px;
+    background: rgb(3, 7, 18);
+}
+
+footer h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+
+    color: #fff;
+}
+footer p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff70;
+}
+
+footer hr {
+    border-top: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+.footerAnchor {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
